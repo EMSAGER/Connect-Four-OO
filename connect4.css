@@ -41,14 +41,14 @@ input {
   box-sizing: border-box;
   display: inline-block;
   position: relative;
-  left: 450px;
+  left: 350px;
   margin: 10px;
 }
 
 button {
   display: inline;
   position: relative;
-  left: 460px;
+  left: 360px;
   border-radius: 25%;
   font-size: 16px;
 }
