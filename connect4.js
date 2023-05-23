@@ -9,9 +9,9 @@ class Game {
     this.width = width;
     this.height = height;
     //sets up how many players can play at a time
-    this.players = [p1,p2];
+    this.players = [p1, p2,];
     //sets up default current player/starting player at 1
-    this.currPlayer = 1;
+    this.currPlayer = p1;
     this.makeBoard();
     this.makeHtmlBoard();
     this.gameOver = false;

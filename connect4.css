@@ -2,47 +2,26 @@
 
 body {
   background-color: blanchedalmond;
+  margin: 50px;
+  padding: 25px;
+}
+
+#game {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px;
-  padding: 25px;
-  z-index: 1;
+  margin: auto;
+  margin-top: 20px;
 }
-
 #board td {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border: solid 1px #666;
   position: relative;
   margin: 20px;
   padding: 5px;
 }
 
-div #player-info {
-  z-index: -1;
-}
-
-input {
-  position: relative;
-  /* left: 250px; */
-  display: inline-block;
-  box-sizing: border-box;
-  border: 1px solid black;
-  text-align: center;
-  vertical-align: middle;
-  margin: 10px;
-  z-index: 1;
-}
-button {
-  display: inline-block;
-  position: relative;
-  /* left: 250px;
-  top: 1px; */
-  border-radius: 25%;
-  font-size: 18px;
-  z-index: 1;
-}
 /* pieces are div within game table cells: draw as colored circles */
 
 .piece {
@@ -58,6 +37,21 @@ button {
   animation-fill-mode: forwards;
 }
 
+input {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  left: 500px;
+  margin: 10px;
+}
+
+button {
+  display: inline;
+  position: relative;
+  left: 510px;
+  border-radius: 25%;
+  font-size: 16px;
+}
 /* column-top is table row of clickable areas for each column */
 
 
