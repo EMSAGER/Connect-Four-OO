@@ -4,10 +4,16 @@
   <link href="connect4.css" rel="stylesheet">
 </head>
 <body>
-
-<div id="game">
-  <table id="board"></table>
-</div>
+  <!-- Don't put in an input type because it will hardcode WHAT can be entered -->
+  <div id="player-info">
+    <input id="p1-color" placeholder="Player One Color">
+    <input id="p2-color" placeholder="Player Two Color">
+    <button id = "start-game">Start Game!</button>
+  </div>
+  
+  <div id="game">
+    <table id="board"></table>
+  </div>
 
 <script src="connect4.js"></script>
 
